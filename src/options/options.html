@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>YAAMUTE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+    div {
+      padding-bottom: 10px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    button {
+      margin-right: 25px;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="preferences">
+      <h2>Common</h2>
+      <input type="checkbox" id="toggleContextMenu" name="toggleContextMenu"> Enable context menu (if disabled you can't add new site('s) to the blacklist)<br>
+      </br>
+      <h2>Blacklist</h2>
+      <div id="blacklist"></div>
+    </div>
+    <script src="./options.js"></script>
+  </body>
+</html>
